@@ -1,3 +1,5 @@
+use std::marker;
+
 //mod helloworld;
 //mod operators;
 //mod vars;
@@ -13,7 +15,12 @@
 //mod structs;
 // mod enums;
 //mod cli;
-mod slice_of_array;
+// mod slice_of_array;
+mod match_f;
+
+
+
+
 fn main() {
     //operators::run();
     //helloworld::run();
@@ -29,7 +36,8 @@ fn main() {
     //structs::run();
     // enums::run();
     // cli::run();
-    slice_of_array::run();
+    // slice_of_array::run();
+    match_f::run();
 
 
 }
